@@ -69,3 +69,17 @@
 - Melhorias planejadas:
 - Prioridades de curto prazo:
 - Itens fora de escopo:
+
+
+## Anexos e Referências
+- Links de documentação complementar:
+- Diagramas e fluxos de alto nível:
+- Links de PRs/issues e roadmap:
+- Materiais de onboarding relacionados:
+
+## Checklist de Qualidade (pré-entrega)
+- [ ] Objetivo, escopo e público-alvo claros.
+- [ ] Pré-requisitos e setup descritos de forma executável.
+- [ ] Fluxo de uso e comandos essenciais documentados.
+- [ ] Troubleshooting com sintomas e ações recomendadas.
+- [ ] Premissas, lacunas e riscos preenchidos.
