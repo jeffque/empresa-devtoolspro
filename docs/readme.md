@@ -9,7 +9,7 @@
 - Última atualização:
 - Próxima revisão:
 - Público-alvo:
-- Classificação da informação: Interna | Restrita | Confidencial
+- Classificação da informação: Interna
 
 ## Premissas, Lacunas e Riscos (preenchimento obrigatório)
 - Premissas (o que está sendo assumido para elaborar o documento):
