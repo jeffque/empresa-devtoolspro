@@ -152,6 +152,12 @@ cd src/dev-portal && npm install
 npm run dev   # em cada diretório de módulo
 ```
 
+Leia mais informação na README de cada módulo:
+
+- [quality-gate-service](../src/quality-gate-service/README.md)
+- [build-orchestrator](../src/build-orchestrator/README.md)
+- [dev-portal](../src/dev-portal/README.md)
+
 ### Fluxos mais comuns
 1. **Acompanhar um build:** Acessar o `dev-portal` no navegador, navegar até o painel de builds e filtrar pelo repositório ou branch desejado.
 2. **Consultar quality gate:** No `dev-portal`, acessar a seção de qualidade para visualizar resultados de análise estática consolidados pelo `quality-gate-service`.
