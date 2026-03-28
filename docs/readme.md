@@ -32,6 +32,8 @@
 | Ausência de fluxo único de troubleshooting | Aumento do tempo de resolução de incidentes pelo suporte | Adotar e manter a tabela de troubleshooting deste documento como referência oficial |
 | README desatualizado após novas releases | Onboarding prejudicado e retrabalho de suporte | Incluir revisão do README como item obrigatório no checklist de release |
 | Dependência de RabbitMQ sem redundância documentada | Perda de mensagens e interrupção de pipelines | Documentar configuração de alta disponibilidade e dead-letter queues |
+| Build em ambiente indevido | Vazamento de código fonte e possíveis segredos de pipeline | Minimizar impacto dos segredos compartilhados com o `build-orchestrator`, controlar acesso de cadastro de subir ambientes de build |
+| DoS dos serviços | Build parado, impedindo novas alterações | Colocar os serviços em uma rede WAF, limitar acesso apenas a colaboradores (token-bearer) |
 
 ---
 
