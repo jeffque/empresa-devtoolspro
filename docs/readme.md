@@ -18,6 +18,7 @@
 - Os três módulos documentados (`quality-gate-service`, `build-orchestrator`, `dev-portal`) representam o escopo completo do produto em sua versão atual.
 - O ambiente de execução é baseado em containers Docker com orquestração via Docker Compose ou equivalente.
 - As equipes consumidoras vão consumir os produtos via interfaces agnósticas de tecnologias (YAML para descrever pipelines do build-orchestrator, HTTP para enviar comandos aos produtos)
+- Cada cliente roda em seu próprio ambiente o suite de devtools
 
 ### Lacunas de informação
 - Não há documentação oficial das variáveis de ambiente utilizadas por cada módulo. Os valores descritos neste documento foram inferidos a partir da stack e das convenções comuns do ecossistema Node.js.
